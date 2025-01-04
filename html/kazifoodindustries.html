@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title> :: Kazi Farms Group :: | Kazi Food Industries</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/css/kazi food industried.css">
+</head>
+
+<body>
+    <!-- THis is header image -->
+    <Header class="head">
+        <img src="/usable images for this website/logo.gif" alt="">
+        <i class="fa-solid fa-bars fa-flip-horizontal" style="color: #000000; cursor: pointer;" onclick="toggleMenu()"></i>
+
+    </Header>
+
+    <!-- This is navbar -->
+    <nav class="navbar">
+        <ul id="menuList">
+            <li><a href="Home.html" class=" bgcolor different1">Home </a></li>
+            <li><a href="management.html" class="bgcolor">Management</a></li>
+            <li><a href="socialresponsibility.html" class="bgcolor">Social Responsibility</a></li>
+            <li><a href="kazimedia.html" class="bgcolor">Kazi Media</a></li>
+            <li><a href="kazifoodindustries.html" class="different"> Kazi Food Industries</a></li>
+            <li><a href="contactus.html" class="bgcolor radius">Contact Us/<span class="span">যোগাযোগ</span></a></li>
+
+        </ul>
+    </nav>
+
+    <!-- This is section details -->
+    <section id="details">
+        <h4>Kazi Food Industries</h4>
+       <div class="details">
+        <div class="col1">
+            <p>Kazi Food Industries Limited is a recent venture of the Kazi Farms Group. Located in Beron, Ashulia, KFIL
+                produces and sells premium dairy ice cream with minimum 10% milk fat (as per international standard)
+                under the brand name Bellissimo.</p>
+
+                <p>Another line of ice creams and ice lollies is produced and sold under the brand name ZaNZee.</p>
+
+                <p>A range of frozen food products are sold under the brand name Kazi Farms Kitchen. These are all
+                    guaranteed to not contain any antibiotic residues, as chickens are not fed any antibiotics within 7 days
+                    of slaughter, as per international practice. The meat is also guaranteed to be produced
+                    from chickens raised on feed not containing MBM (meat and bone meal) as per European standards. The meat
+                    products are also guaranteed to be MSG
+                    and nitrate-free, as we do not use any of these chemicals during food preparation.</p>
+    
+        </div>
+       
+        <div class="col2">
+            <a href="http://www.bellissimobd.com/" target="_blank"> <img src="/usable images for this website/food1.jpg"
+                    alt="" class="differ"></a>
+
+            <a href="https://www.zanzeebd.com/" target="_blank"> <img src="/usable images for this website/food2.jpg"
+                    alt=""></a>
+
+            <a href="https://www.kazifarmskitchen.com/" target="_blank"><img src="/usable images for this website/food3.jpg" alt=""></a>
+        </div>
+       </div>
+    </section>
+
+
+    <!-- This is footer -->
+    <footer>
+        <hr>
+
+        <div class="flex">
+            <div class="copyright">
+                &copy; Copyright 1996-2014
+                <span class="block"> Kazi Farms Group™</span>
+            </div>
+            <div class="design">
+                Design:
+                <span class="bohutkuch">
+                    <strong>h<a href="https://www.h-office.com/" target="_blank">e</a>ad</strong>office
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+<script>
+    let menuLIst = document.getElementById("menuList")
+    menuLIst.style.maxHeight = "0px";
+
+    function toggleMenu() {
+        if (menuLIst.style.maxHeight == "0px") {
+            menuLIst.style.maxHeight = "350px";
+        }
+        else {
+            menuLIst.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+
+
+
+
+</html>

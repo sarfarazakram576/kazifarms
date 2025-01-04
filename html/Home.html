@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title> :: Kazi Farms Group :: | Management</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+
+<body>
+    <!-- THis is header image -->
+    <Header class="head">
+        <img src="/usable images for this website/logo.gif" alt="">
+        <i class="fa-solid fa-bars fa-flip-horizontal" style="color: #000000; cursor: pointer;" onclick="toggleMenu()"></i>
+    </Header>
+
+    <!-- This is navbar -->
+    <nav class="navbar">
+        <ul id="menuList">
+            <li><a href="Home.html" class=" different different1">Home </a></li>
+            <li><a href="management.html" class="bgcolor">Management</a></li>
+            <li><a href="socialresponsibility.html" class="bgcolor">Social Responsibility</a></li>
+            <li><a href="kazimedia.html" class="bgcolor">Kazi Media</a></li>
+            <li><a href="kazifoodindustries.html" class="bgcolor"> Kazi Food Industries</a></li>
+            <li><a href="contactus.html" class="bgcolor radius">Contact Us/<span class="span">যোগাযোগ</span></a></li>
+
+        </ul>
+    </nav>
+
+
+
+    <!-- This is section details -->
+    <section id="details">
+        <div class="img">
+            <img src="/usable images for this website/chil.gif" alt="">
+        </div>
+        <div class="details">
+            <h4>Company background</h4>
+            <p>Kazi Farms Limited was established in 1996 as a hatchery for imported eggs; the following year it started
+                its own parent farms. In 2004 production started in our grand-parent (GP) farms. which was responsible
+                for Bangladesh's first exports of hatching eggs and day-old chicks in 2004. In that year, our Managing
+                Director, Kazi Zahedul Hasan, was named Businessperson of the Year by the Daily Star/DHL Business
+                Awards.</p>
+
+
+            <h4>Our Purpose</h4>
+            <p>To produce high quality chicks and feed so that poultry farmers can be productive and prosperous.
+                To produce safe eggs and chicken which consumers can eat with confidence.
+                To produce organic fertilizer which replenishes the organic content of the soil, increases long-term
+                fertility and protects farmers' profits.</p>
+
+            <h4>Our Vision</h4>
+            <p>We have a vision of a more prosperous Bangladesh, where poultry farmers are generating income by
+                producing safe food.</p>
+
+
+            <h4>Products</h4>
+
+            <h5>1.Broiler parent chicks and broiler chicks</h5>
+            <p class="margin">Kazi Farms Group is the Bangladesh Grand-Parent franchisee of Avigen Indian River and
+                Cobb-Vantress,
+                acknowledged to be the best broiler breeds in the world. The broiler chicks of Kazi Farms Group are
+                considered to be the best performing chicks in the domestic market, and are sold at a premium over other
+                broiler breeds.</p>
+
+
+            <h5>2.Layer chicks and table eggs</h5>
+            <p class="margin">Kazi Farms Group is also the distributor for Hy-line brown and white layers in
+                Bangladesh.Hy-line International is the oldest poultry breeding company of the world, and is the leading
+                breeders of layers. Kazi Farms' own commercial layer farms make it the largest producer of commercial
+                table eggs in Bangladesh.
+
+            </p>
+
+            <h5>3.Feed</h5>
+            <p class="margin">Kazi Farms Group expanded its operation into poultry feed manufacture in 2006. Within a
+                very short period it has become recognized as a market leader in both quality and volume. In order to
+                ensure feed quality, The Gajaria feed mill was set up with technical expertise from USA and Europe.
+                We are compliant with all applicable feed regulations of the Government of Bangladesh. We do not use any
+                MBM in our feed. ( MBM is cheap protein made by cooking and drying slaughterhouse waste. ) We do not use
+                any antibiotics in our feed.
+                <a href="https://www.youtube.com/watch?v=cwx5_yG1fDk&feature=youtu.be" target="_blank">Kazi Farms Fish
+                </a>
+            </p>
+
+
+            <h5>4.Kazi Organic fertiliser</h5>
+            <p class="margin">Kazi Farms is the market leader in production of composted organic fertiliser. This
+                product has many benefits for farmers.It is produced by the composting action of aerobic bacteria on
+                poultry manure, which results in a natural fertiliser which is high in organic matter. Many soils in
+                Bangladesh are low in organic matter due to high frequency of plantation and excess use of chemical
+                fertilizers.By increasing the organic content of soil, it increases water retention and so reduces the
+                cost of irrigation. Increase of water retention also reducing run-off wastage of chemical fertilisers
+                due to rainfall.
+                <a href="https://www.youtube.com/watch?v=nvchjQSNsh8" target="_blank">Kazi Organic Fertiliser </a>
+                <a href="https://www.youtube.com/watch?v=DJP7Qcw5k88" target="_blank">Deepto Krishi episode on Kazi
+                    Organic Fertiliser </a>
+                <a href="https://www.dhakatribune.com/science-technology-environment/climate-change/256130/kazi-farms-reduces-emission-by-producing-organic"
+                    target="_blank">Kazi Farms reduces emission by producing organic fertilizer </a>
+            </p>
+        </div>
+    </section>
+
+
+    <!-- This is footer -->
+    <footer>
+        <hr>
+
+        <div class="flex">
+            <div class="copyright">
+                &copy; Copyright 1996-2014
+                <span class="block"> Kazi Farms Group™</span>
+            </div>
+            <div class="design">
+                Design:
+                <span class="bohutkuch">
+                    <strong>h<a href="https://www.h-office.com/" target="_blank">e</a>ad</strong>office
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+<script>
+    let menuLIst = document.getElementById("menuList")
+    menuLIst.style.maxHeight = "0px";
+
+
+    function toggleMenu() {
+        if (menuLIst.style.maxHeight == "0px") {
+            menuLIst.style.maxHeight = "350px";
+     
+        }
+        else {
+            menuLIst.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</html>

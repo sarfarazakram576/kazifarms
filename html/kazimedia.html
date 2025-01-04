@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no" >
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> :: Kazi Farms Group :: | Kazi Media</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/css/kazi media.css">
+</head>
+
+<body>
+    <!-- THis is header image -->
+    <Header class="head">
+        <img src="/usable images for this website/logo.gif" alt="">
+        <i class="fa-solid fa-bars fa-flip-horizontal" style="color: #000000; cursor: pointer;" onclick="toggleMenu()"></i>
+
+    </Header>
+
+    <!-- This is navbar -->
+    <nav class="navbar">
+        <ul id="menuList">
+            <li><a href="Home.html" class="bgcolor  different1">Home </a></li>
+            <li><a href="management.html" class="bgcolor">Management</a></li>
+            <li><a href="socialresponsibility.html" class="bgcolor">Social Responsibility</a></li>
+            <li><a href="kazimedia.html" class="different">Kazi Media</a></li>
+            <li><a href="kazifoodindustries.html" class="bgcolor"> Kazi Food Industries</a></li>
+            <li><a href="contactus.html" class="bgcolor radius">Contact Us/<span class="span">যোগাযোগ</span></a></li>
+
+        </ul>
+    </nav>
+
+    <!-- This is section details -->
+    <section id="details">
+        <div class="details">
+            <h4>Kazi Media</h4>
+            <p>Launched in November 2015, Deepto TV has become the highest-rated Bangladeshi channel as measured by
+                Total Rating Points(TRP).</p>
+
+        </div>
+    </section>
+
+
+    <!-- This is footer -->
+    <footer>
+        <hr>
+
+        <div class="flex">
+            <div class="copyright">
+                &copy; Copyright 1996-2014
+                <span class="block"> Kazi Farms Group™</span>
+            </div>
+            <div class="design">
+                Design:
+                <span class="bohutkuch">
+                    <strong>h<a href="https://www.h-office.com/" target="_blank">e</a>ad</strong>office
+                </span>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+<script>
+    let menuLIst = document.getElementById("menuList")
+   menuLIst.style.maxHeight="0px";
+
+   function toggleMenu() {
+    if(   menuLIst.style.maxHeight=="0px"){
+        menuLIst.style.maxHeight="350px";
+    }
+    else{
+        menuLIst.style.maxHeight="0px";
+    }
+   }
+</script>
+</html>
